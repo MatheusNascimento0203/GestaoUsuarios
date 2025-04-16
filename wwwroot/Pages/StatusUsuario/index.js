@@ -32,24 +32,3 @@ function excluirStatus(url, idStatus) {
       showAlert("Erro ao remover status!", "danger");
     });
 }
-
-function editarStatus(url, idStatus) {
-  const nomeStatus = $("#statusUsuario").val().toUpperCase().trim();
-
-  if (nomeStatus == "") {
-    showAlert("Preencha o nome do status!", "error");
-    return;
-  }
-
-  $.post(url, { idStatus, NomeStatusUsuario: nomeStatus })
-    .done(function () {
-      showAlert("Status atualizado com sucesso!", "success");
-      setTimeout(() => {
-        location.reload();
-      }, 1000);
-    })
-    .fail(function (xhr) {
-      const errorMsg = xhr.responseJSON?.message || "Erro ao atualizar status!";
-      showAlert(errorMsg, "error");
-    });
-}

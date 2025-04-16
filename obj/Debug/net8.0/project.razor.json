@@ -19362,6 +19362,11 @@
       "FilePath": "c:\\Projetos\\GerenciadordeUsuarios\\GerenciadorUsuario\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projetos\\GerenciadordeUsuarios\\GerenciadorUsuario\\Views\\PapelUsuario\\index.cshtml",
+      "TargetPath": "Views\\PapelUsuario\\index.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.3"

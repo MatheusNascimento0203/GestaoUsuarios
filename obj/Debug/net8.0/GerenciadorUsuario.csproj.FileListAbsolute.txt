@@ -324,6 +324,7 @@ C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\Gerenciado
 C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.MvcApplicationPartsAssemblyInfo.cache
 C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.RazorAssemblyInfo.cache
 C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.RazorAssemblyInfo.cs
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.sourcelink.json
 C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\scopedcss\bundle\GerenciadorUsuario.styles.css
 C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\scopedcss\projectbundle\GerenciadorUsuario.bundle.scp.css

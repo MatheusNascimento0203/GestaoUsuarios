@@ -37,7 +37,7 @@ namespace GerenciadorUsuario.Controllers
             {
                 return BadRequest(new {message = ex.Message });
             }
-            catch (System.Exception)
+            catch (Exception)
             {
                 
                 return BadRequest(new {message = "Erro ao cadastrar o status do usuario"});
