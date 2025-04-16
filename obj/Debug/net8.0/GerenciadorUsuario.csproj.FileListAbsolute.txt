@@ -1,0 +1,344 @@
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\appsettings.json
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.staticwebassets.runtime.json
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.staticwebassets.endpoints.json
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.exe
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.deps.json
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.runtimeconfig.json
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.pdb
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.AssemblyInfoInputs.cache
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.AssemblyInfo.cs
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.csproj.CoreCompileInputs.cache
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.RazorAssemblyInfo.cache
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.RazorAssemblyInfo.cs
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\scopedcss\bundle\GerenciadorUsuario.styles.css
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\scopedcss\projectbundle\GerenciadorUsuario.bundle.scp.css
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets\msbuild.GerenciadorUsuario.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets\msbuild.GerenciadorUsuario.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets\msbuild.build.GerenciadorUsuario.props
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GerenciadorUsuario.props
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GerenciadorUsuario.props
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\refint\GerenciadorUsuario.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.pdb
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.genruntimeconfig.cache
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\ref\GerenciadorUsuario.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.csproj.AssemblyReference.cache
+C:\Users\Matheus - SMN\OneDrive - SMN Informatica LTDA\Área de Trabalho\Gerenciador de Usuarios\GerenciadorUsuario\obj\Debug\net8.0\Gerencia.27FEB0A5.Up2Date
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\appsettings.Development.json
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\appsettings.json
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\package-lock.json
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\package.json
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.staticwebassets.runtime.json
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.staticwebassets.endpoints.json
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.exe
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.deps.json
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.runtimeconfig.json
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\GerenciadorUsuario.pdb
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Azure.Core.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Azure.Identity.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Humanizer.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.ClientModel.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.CodeDom.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Text.Json.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.csproj.AssemblyReference.cache
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.AssemblyInfoInputs.cache
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.AssemblyInfo.cs
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.csproj.CoreCompileInputs.cache
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.MvcApplicationPartsAssemblyInfo.cache
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.RazorAssemblyInfo.cache
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.RazorAssemblyInfo.cs
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\scopedcss\bundle\GerenciadorUsuario.styles.css
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\scopedcss\projectbundle\GerenciadorUsuario.bundle.scp.css
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets.build.json
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets.development.json
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets\msbuild.GerenciadorUsuario.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets\msbuild.GerenciadorUsuario.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets\msbuild.build.GerenciadorUsuario.props
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GerenciadorUsuario.props
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GerenciadorUsuario.props
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\Gerencia.27FEB0A5.Up2Date
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\refint\GerenciadorUsuario.dll
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.pdb
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\GerenciadorUsuario.genruntimeconfig.cache
+C:\Projetos\GerenciadordeUsuarios\GerenciadorUsuario\obj\Debug\net8.0\ref\GerenciadorUsuario.dll
