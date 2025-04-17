@@ -167,8 +167,8 @@
       ]
     },
     {
-      "Route": "Pages/StatusUsuario/index.72lu5ar7ob.js",
-      "AssetFile": "Pages/StatusUsuario/index.js",
+      "Route": "Pages/PapelUsuario/index.htlhakevrz.js",
+      "AssetFile": "Pages/PapelUsuario/index.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -181,7 +181,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1555"
+          "Value": "962"
         },
         {
           "Name": "Content-Type",
@@ -189,25 +189,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H8N+MlLljlAjocmjq5v52mVmCTxvRN1JimhR16LRMcM=\""
+          "Value": "\"tUKFdgjODpA45jP+FNH7fKDaPkO5fZfWh298Jx+wdsw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 16:37:14 GMT"
+          "Value": "Wed, 16 Apr 2025 19:34:27 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "72lu5ar7ob"
+          "Value": "htlhakevrz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-H8N+MlLljlAjocmjq5v52mVmCTxvRN1JimhR16LRMcM="
+          "Value": "sha256-tUKFdgjODpA45jP+FNH7fKDaPkO5fZfWh298Jx+wdsw="
         },
         {
           "Name": "label",
-          "Value": "Pages/StatusUsuario/index.js"
+          "Value": "Pages/PapelUsuario/index.js"
+        }
+      ]
+    },
+    {
+      "Route": "Pages/PapelUsuario/index.js",
+      "AssetFile": "Pages/PapelUsuario/index.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "962"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tUKFdgjODpA45jP+FNH7fKDaPkO5fZfWh298Jx+wdsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 19:34:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tUKFdgjODpA45jP+FNH7fKDaPkO5fZfWh298Jx+wdsw="
         }
       ]
     },
@@ -226,7 +263,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1555"
+          "Value": "953"
         },
         {
           "Name": "Content-Type",
@@ -234,17 +271,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"H8N+MlLljlAjocmjq5v52mVmCTxvRN1JimhR16LRMcM=\""
+          "Value": "\"KEGaeQtfrq3dZvcT4/kVfsq5QWIadD+/ck3NmCHV8K4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 16 Apr 2025 16:37:14 GMT"
+          "Value": "Wed, 16 Apr 2025 19:33:52 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-H8N+MlLljlAjocmjq5v52mVmCTxvRN1JimhR16LRMcM="
+          "Value": "sha256-KEGaeQtfrq3dZvcT4/kVfsq5QWIadD+/ck3NmCHV8K4="
+        }
+      ]
+    },
+    {
+      "Route": "Pages/StatusUsuario/index.okbpoc3vum.js",
+      "AssetFile": "Pages/StatusUsuario/index.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KEGaeQtfrq3dZvcT4/kVfsq5QWIadD+/ck3NmCHV8K4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 19:33:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "okbpoc3vum"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KEGaeQtfrq3dZvcT4/kVfsq5QWIadD+/ck3NmCHV8K4="
+        },
+        {
+          "Name": "label",
+          "Value": "Pages/StatusUsuario/index.js"
         }
       ]
     },

@@ -8,6 +8,7 @@ builder.Services.AddScoped<StatusUsuarioRepository>();
 builder.Services.AddScoped<UsuarioRepository>();
 builder.Services.AddScoped<PapelUsuarioRepository>();
 
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

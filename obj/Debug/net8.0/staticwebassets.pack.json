@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Pages\\HomeUsuario\\index.js"
     },
     {
+      "Id": "C:\\Projetos\\GerenciadordeUsuarios\\GerenciadorUsuario\\wwwroot\\Pages\\PapelUsuario\\index.js",
+      "PackagePath": "staticwebassets\\Pages\\PapelUsuario\\index.js"
+    },
+    {
       "Id": "C:\\Projetos\\GerenciadordeUsuarios\\GerenciadorUsuario\\wwwroot\\Pages\\StatusUsuario\\index.js",
       "PackagePath": "staticwebassets\\Pages\\StatusUsuario\\index.js"
     },
