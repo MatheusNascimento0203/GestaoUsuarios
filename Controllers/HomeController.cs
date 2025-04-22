@@ -26,7 +26,7 @@ public class HomeController : Controller
     }
 
     [HttpPost ("criar-usuario")]
-    public async Task<IActionResult> CriarUsuario(Usuario usuario)
+    public async Task<IActionResult> CriarUsuario(IFormFile fileUpload, Usuario usuario)
     {
 
         if (usuario.Nome == null || usuario.Nome == string.Empty)
@@ -42,6 +42,19 @@ public class HomeController : Controller
         if (usuario.Foto == null || usuario.Foto == string.Empty)
         {
             return BadRequest(new { message = "O campo foto é obrigatório." });
+        }
+
+        if (fileUpload != null && fileUpload.Length > 0)
+        {
+           using (var memoryStream = new MemoryStream())
+           {
+                await fileUpload.CopyToAsync(memoryStream);
+                var bytes = memoryStream.ToArray();
+                var base64 = Convert.ToBase64String(bytes);
+                var contentType = fileUpload.ContentType;
+
+                usuario.Foto = $"data:{contentType};base64,{base64}";
+           }
         }
      
         try
