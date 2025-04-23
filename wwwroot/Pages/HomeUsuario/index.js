@@ -1,19 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () {
   previewImageUpload("file-upload", "preview-image", "preview-container");
 });
-function abrirModal() {
-  document.getElementById("modal-usuario").style.display = "block";
+function abrirModal(tipoModal) {
+  if (tipoModal === "cadastrar") {
+    document.getElementById("modal-usuario").style.display = "block";
+    return;
+  }
 }
 
-function fecharModal() {
-  document.getElementById("modal-usuario").style.display = "none";
-  document.getElementById("form-modal").reset();
+function fecharModal(tipoModal) {
+  if (tipoModal === "cadastrar") {
+    document.getElementById("modal-usuario").style.display = "none";
+    document.getElementById("form-modal").reset();
 
-  document.getElementById("preview-container").classList.add("hidden");
-  document.getElementById("preview-image").src = "#";
-  document.getElementById("upload-content").classList.remove("hidden");
+    document.getElementById("preview-container").classList.add("hidden");
+    document.getElementById("preview-image").src = "#";
+    document.getElementById("upload-content").classList.remove("hidden");
 
-  document.getElementById("file-upload").value = "";
+    document.getElementById("file-upload").value = "";
+    return;
+  }
 }
 
 window.onclick = function (event) {
@@ -23,10 +29,61 @@ window.onclick = function (event) {
   }
 };
 
-// function cadastrarUsuario() {
-//   const nome = $("#nome").val();
-//   const email = $("#email").val();
-// }
+function cadastrarUsuario(url) {
+  const nome = $("#nome").val().trim();
+  const email = $("#email").val().trim();
+  const papelUsuario = $("#papelUsuario").val();
+  const statusUsuario = $("#statusUsuario").val();
+  const fileInput = document.getElementById("file-upload");
+  const file = fileInput.files[0];
+
+  if (nome == "") {
+    showAlert("Preencha o nome do usuário!", "error");
+    return;
+  }
+
+  if (email == "") {
+    showAlert("Preencha o email do usuário!", "error");
+    return;
+  }
+
+  if (file == "") {
+    showAlert("Selecione uma imagem para o usuário!", "error");
+    return;
+  }
+
+  const reader = new FileReader();
+
+  reader.onload = function (e) {
+    const base64String = e.target.result;
+
+    const objUsuario = {
+      Nome: nome,
+      Email: email,
+      Foto: base64String,
+      IdPapelUsuario: parseInt(papelUsuario),
+      IdStatusUsuario: parseInt(statusUsuario),
+    };
+
+    $.ajax({
+      url: url,
+      type: "POST",
+      data: JSON.stringify(objUsuario),
+      contentType: "application/json",
+      success: function () {
+        showAlert("Usuário cadastrado com sucesso!", "success");
+        setTimeout(() => location.reload(), 1000);
+      },
+      error: function (xhr) {
+        const errorMsg =
+          xhr.responseJSON?.message || "Erro ao adicionar usuário!";
+        showAlert(errorMsg, "error");
+        console.error("Detalhes do erro:", xhr.responseJSON);
+      },
+    });
+  };
+  reader.readAsDataURL(file);
+}
 
 function previewImageUpload(inputId, previewImageId, containerId) {
   const inputFile = document.getElementById(inputId);
@@ -52,3 +109,49 @@ function previewImageUpload(inputId, previewImageId, containerId) {
     }
   });
 }
+
+function pesquisarUsuario() {
+  var usuario = $("#buscar-usuario").val().toLowerCase();
+  console.log(usuario);
+  $(".container-resultado").each(function () {
+    var usuarioNome = $(this).find(".nome-usuario").text().toLowerCase();
+    var usuarioEmail = $(this).find(".email-usuario").text().toLowerCase();
+    var usuarioPapel = $(this).find(".papel-usuario").text().toLowerCase();
+    var usuarioStatus = $(this).find(".status-usuario").text().toLowerCase();
+    if (
+      usuarioNome.includes(usuario) ||
+      usuarioEmail.includes(usuario) ||
+      usuarioPapel.includes(usuario) ||
+      usuarioStatus.includes(usuario)
+    ) {
+      $(this).show();
+    } else {
+      $(this).hide();
+    }
+  });
+}
+
+function removerUsuario(url, usuarioId) {
+  const modal = document.getElementById("modal-confirmarExclusao");
+  modal.style.display = "block";
+  // Remove listeners antigos para evitar múltiplos cliques
+  $("#confirmar-exclusao").off("click");
+
+  $("#confirmar-exclusao").on("click", function () {
+    $.post(url)
+      .done(function () {
+        $(`#usuario-${usuarioId}`).remove();
+        showAlert("Usuario removido com sucesso!", "error");
+      })
+      .fail(function () {
+        showAlert("Erro ao remover usuario!", "error");
+      })
+      .always(() => (modal.style.display = "none"));
+  });
+}
+
+let modalEditar = false;
+let usuarioUrlAtual = "";
+let usuarioIdAtual = null;
+
+function editarUsuario(url, usuarioId) {}

@@ -1,13 +1,15 @@
 function showAlert(message, status) {
   const alert = document.createElement("div");
 
-  if (status === "success") {
-    alert.className = "rounded-md bg-green-50 p-4 mb-4";
-  }
+  const baseClasses =
+    "fixed top-4 right-8 p-4 mb-4 shadow-md z-[9999] rounded-md";
 
-  if (status === "error") {
-    alert.className = "rounded-md bg-red-50 p-4 mb-4";
-  }
+  const successClass = "bg-green-50 text-green-800";
+  const errorClass = "bg-red-50 text-red-800";
+
+  alert.className = `${baseClasses} ${
+    status === "success" ? successClass : errorClass
+  }`;
 
   alert.innerHTML = `
       <div class="flex">
@@ -42,11 +44,10 @@ function showAlert(message, status) {
       </div>
     `;
 
-  // Adiciona ao topo da página (ou troque para outro container)
-  const container = document.getElementById("alert-container") || document.body;
-  container.prepend(alert);
+  alert.setAttribute("role", "alert");
 
-  // Remove automaticamente após 5 segundos
+  document.body.appendChild(alert);
+
   setTimeout(() => {
     alert.remove();
   }, 2000);

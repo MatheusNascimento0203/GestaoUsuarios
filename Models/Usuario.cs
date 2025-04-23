@@ -23,9 +23,11 @@ namespace GerenciadorUsuario.Models
         [Required(ErrorMessage = "O campo foto é obrigatório.")]
         public string Foto { get; set; }
         public DateTime DataCadastro { get; set; } = DateTime.Now;
-        public DateTime DataUltimaAtualizacao { get; set; }
+        public DateTime? DataUltimaAtualizacao { get; set; }
+        [ForeignKey("IdPapelUsuario")]
         [ValidateNever]
         public PapelUsuario PapelUsuario { get; set; }
+        [ForeignKey("IdStatusUsuario")]
         [ValidateNever]
         public StatusUsuario StatusUsuario { get; set; }
         
