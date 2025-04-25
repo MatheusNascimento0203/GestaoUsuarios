@@ -1,6 +1,26 @@
 document.addEventListener("DOMContentLoaded", function () {
   previewImageUpload("file-upload", "preview-image", "preview-container");
 });
+
+let model;
+
+function init(params) {
+  model = params;
+  renderizarUsuario();
+}
+
+function renderizarUsuario() {
+  $.get(model.urls.buscarUsuario)
+    .done((data) => {
+      const divTabela = $("#tabela-usuarios");
+      divTabela.empty();
+      divTabela.append(data);
+    })
+    .fail(() => {
+      showAlert("Erro ao buscar usuários.", "error");
+    });
+}
+
 function abrirModal(tipoModal) {
   if (tipoModal === "cadastrar") {
     document.getElementById("modal-usuario").style.display = "block";
@@ -154,4 +174,19 @@ let modalEditar = false;
 let usuarioUrlAtual = "";
 let usuarioIdAtual = null;
 
-function editarUsuario(url, usuarioId) {}
+function editarUsuario(url, usuarioId) {
+  const nome = $("#nome").val();
+  const email = $("#email").val();
+  const papelUsuario = $("#papelUsuario");
+  const statusUsuario = $("#statusUsuario");
+}
+
+module.exports = {
+  init,
+  abrirModal,
+  fecharModal,
+  cadastrarUsuario,
+  pesquisarUsuario,
+  removerUsuario,
+  editarUsuario,
+};

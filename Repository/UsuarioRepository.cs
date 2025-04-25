@@ -17,25 +17,34 @@ namespace GerenciadorUsuario.Repository
             _context = context;
         }
 
-        public async Task<List<Usuario>> ObterUsuarios()
+        public async Task<List<Usuario>> BuscarAsync(string nome = null, string email = null, string papelUsuario = null, string statusUsuario = null )        
         {
-            return await _context.Usuario
-                .Include(u => u.PapelUsuario)
+            var query = _context.Usuario.AsQueryable();
+
+            if (!string.IsNullOrEmpty(nome) || !string.IsNullOrEmpty(email) || !string.IsNullOrEmpty(papelUsuario) || !string.IsNullOrEmpty(statusUsuario))           
+            {
+                query = query.Where(u => EF.Functions.Like(u.Nome, $"%{nome}%") || 
+                                         EF.Functions.Like(u.Email, $"%{email}%") || 
+                                         EF.Functions.Like(u.PapelUsuario.NomePapelUsuario, $"%{papelUsuario}%") ||
+                                         EF.Functions.Like(u.StatusUsuario.NomeStatusUsuario, $"%{statusUsuario}%"));
+            }
+ 
+            return await query.Include(u => u.PapelUsuario)
                 .Include(u => u.StatusUsuario)
                 .ToListAsync();
         }
 
-        public async Task CriarUsuario(Usuario usuario)
+        public async Task<Usuario> BuscarPorIdAsync(int id)
         {
-            var usuarioExistente = await _context.Usuario.AnyAsync(u => u.Email == usuario.Email);
+            return await _context.Usuario.Include(u => u.PapelUsuario)
+                .Include(u => u.StatusUsuario)
+                .FirstOrDefaultAsync(u => u.Id == id);
+        }
 
-            if (usuarioExistente)
-            {
-                throw new InvalidOperationException("Usuário já cadastrado");
-            }
-
-            await _context.Usuario.AddAsync(usuario);
-            await _context.SaveChangesAsync();
+        public Task CriarAsync(Usuario usuario)
+        {
+            _context.Usuario.Add(usuario);
+            return _context.SaveChangesAsync();
         }
 
         public async Task<Usuario> ExcluirUsuario(int id)
@@ -53,31 +62,10 @@ namespace GerenciadorUsuario.Repository
             return usuario;
         }
 
-        public async Task<Usuario> AtualizarUsuario(int usuarioId, Usuario usuario)
+        public async Task AtualizarAsync( Usuario usuario)
         {
-            var usuarioExistente = await _context.Usuario.FindAsync(usuarioId);
-            var usuarioEmailExistente = await _context.Usuario.AnyAsync(u => u.Email == usuario.Email && u.Id != usuarioId);
-
-            if (usuarioExistente == null)
-            {
-                throw new InvalidOperationException("Usuário não encontrado");
-            }
-
-            if (usuarioEmailExistente)
-            {
-                throw new InvalidOperationException("Email já cadastrado");
-            }
-
-            usuarioExistente.Nome = usuario.Nome;
-            usuarioExistente.Email = usuario.Email;
-            usuarioExistente.Foto = usuario.Foto;
-            usuarioExistente.IdPapelUsuario = usuario.IdPapelUsuario;
-            usuarioExistente.IdStatusUsuario = usuario.IdStatusUsuario;
-            usuarioExistente.DataUltimaAtualizacao = DateTime.Now;
-
             _context.Usuario.Update(usuario);
             await _context.SaveChangesAsync();
-            return usuarioExistente;
         }
         
     }

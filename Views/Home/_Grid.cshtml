@@ -1,0 +1,48 @@
+@using GerenciadorUsuario.Models
+@model IEnumerable<Usuario>
+
+<div class="mt-8 flow-root">
+  <div class="max-h-96 overflow-y-auto">
+      <div>
+          <table class="min-w-full border-separate border-spacing-0">
+              <thead>
+                  <tr>
+                      <th scope="col" class="sticky top-0 z-10 border-t border-l border-b border-gray-300 bg-white/75 py-3.5 pr-3 pl-4 text-left text-sm font-semibold text-gray-900 backdrop-blur-sm backdrop-filter sm:pl-6 lg:pl-8">Nome</th>
+                      <th scope="col" class="sticky top-0 z-10 hidden border-b border-t border-gray-300 bg-white/75 px-3 py-3.5 text-left text-sm font-semibold text-gray-900 backdrop-blur-sm backdrop-filter sm:table-cell">E-mail</th>
+                      <th scope="col" class="sticky top-0 z-10 hidden border-b border-t border-gray-300 bg-white/75 px-3 py-3.5 text-left text-sm font-semibold text-gray-900 backdrop-blur-sm backdrop-filter lg:table-cell">Papel</th>
+                      <th scope="col" class="sticky top-0 z-10 hidden border-b border-t border-gray-300 bg-white/75 px-3 py-3.5 text-left text-sm font-semibold text-gray-900 backdrop-blur-sm backdrop-filter lg:table-cell">Status</th>
+                      <th scope="col" class="sticky top-0 z-10 hidden border-b border-t border-r border-gray-300 bg-white/75 px-3 py-3.5 text-left text-sm font-semibold text-gray-900 backdrop-blur-sm backdrop-filter lg:table-cell">Ações</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  @foreach (var usuario in Model) 
+                  {
+                      var statusAtivo = usuario.StatusUsuario.NomeStatusUsuario == "ATIVO";
+                      var statusBloqueadoinativo = usuario.StatusUsuario.NomeStatusUsuario == "BLOQUEADO" || usuario.StatusUsuario.NomeStatusUsuario == "INATIVO";
+                  <tr id="usuario-@usuario.Id" class="container-resultado">
+                      <td  class="nome-usuario border-b border-l border-gray-200 py-4 pr-3 pl-4 text-sm whitespace-nowrap text-gray-500 sm:pl-6 lg:pl-8">@usuario.Nome</td>
+                      <td class="email-usuario hidden border-b border-gray-200 px-3 py-4 text-sm whitespace-nowrap text-gray-500 sm:table-cell">@usuario.Email</td>
+                      <td class="papel-usuario hidden border-b border-gray-200 px-3 py-4 text-sm whitespace-nowrap text-gray-500 lg:table-cell">@usuario.PapelUsuario.NomePapelUsuario</td>
+                      <td class="status-usuario px-3 py-5 text-sm whitespace-nowrap border-b border-gray-200 text-gray-500">
+                          <span class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium @(statusAtivo ? " text-green-700 ring-1 ring-green-600/20  bg-green-50" : "text-blue-700 ring-1 ring-blue-600/20  bg-blue-50" ) @(statusBloqueadoinativo ? " text-red-700 ring-1 ring-red-600/20  bg-red-50" : "text-blue-700 ring-1 ring-blue-600/20  bg-blue-50" ) ring-inset">
+                              @usuario.StatusUsuario.NomeStatusUsuario
+                          </span>
+                      </td>
+                      <td class="border-b border-r border-gray-200 hidden px-3 py-4 text-sm whitespace-nowrap text-gray-500 lg:table-cell">
+                          <button class="cursor-pointer text-blue-500">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+                                  </svg>
+                          </button>
+                          <button class="cursor-pointer text-red-500" onclick="removerUsuario('@Url.Action("ExcluirUsuario", "Home", new { usuarioId = @usuario.Id})', @usuario.Id)">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
+                                  </svg>
+                          </button>
+                      </td>
+                  </tr>                   
+                  }
+              </tbody>
+          </table>
+      </div>
+</div>
