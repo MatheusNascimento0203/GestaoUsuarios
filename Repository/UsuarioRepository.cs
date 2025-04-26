@@ -21,13 +21,20 @@ namespace GerenciadorUsuario.Repository
         {
             var query = _context.Usuario.AsQueryable();
 
-            if (!string.IsNullOrEmpty(nome) || !string.IsNullOrEmpty(email) || !string.IsNullOrEmpty(papelUsuario) || !string.IsNullOrEmpty(statusUsuario))           
+             if (!string.IsNullOrWhiteSpace(nome))
+                query = query.Where(u => EF.Functions.Like(u.Nome, $"%{nome}%"));
+
+            if (!string.IsNullOrWhiteSpace(email))
             {
-                query = query.Where(u => EF.Functions.Like(u.Nome, $"%{nome}%") || 
-                                         EF.Functions.Like(u.Email, $"%{email}%") || 
-                                         EF.Functions.Like(u.PapelUsuario.NomePapelUsuario, $"%{papelUsuario}%") ||
-                                         EF.Functions.Like(u.StatusUsuario.NomeStatusUsuario, $"%{statusUsuario}%"));
+                query = query.Where(u => EF.Functions.Like(u.Email, $"%{email}%"));
             }
+
+            if (!string.IsNullOrWhiteSpace(papelUsuario))
+                query = query.Where(u => EF.Functions.Like(u.PapelUsuario.NomePapelUsuario, $"%{papelUsuario}%"));
+
+            if (!string.IsNullOrWhiteSpace(statusUsuario))
+                query = query.Where(u => EF.Functions.Like(u.StatusUsuario.NomeStatusUsuario, $"%{statusUsuario}%"));
+
  
             return await query.Include(u => u.PapelUsuario)
                 .Include(u => u.StatusUsuario)
@@ -46,6 +53,17 @@ namespace GerenciadorUsuario.Repository
             _context.Usuario.Add(usuario);
             return _context.SaveChangesAsync();
         }
+
+        public async Task<Usuario> BuscarPorEmailAsync(string email)
+        {
+            if (string.IsNullOrWhiteSpace(email))
+                return null;
+
+            return await _context.Usuario
+                .Include(u => u.PapelUsuario)
+                .Include(u => u.StatusUsuario)
+                .FirstOrDefaultAsync(u => u.Email.ToLower().Trim() == email.ToLower().Trim());
+         }
 
         public async Task<Usuario> ExcluirUsuario(int id)
         {

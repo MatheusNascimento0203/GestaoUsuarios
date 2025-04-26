@@ -1,7 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-  previewImageUpload("file-upload", "preview-image", "preview-container");
-});
-
 let model;
 
 function init(params) {
@@ -21,25 +17,48 @@ function renderizarUsuario() {
     });
 }
 
-function abrirModal(tipoModal) {
-  if (tipoModal === "cadastrar") {
-    document.getElementById("modal-usuario").style.display = "block";
-    return;
+function abrirModalUsuario(urlEditar) {
+  if (!urlEditar) {
+    $.get(model.urls.buscarFormCadastrar)
+      .done((data) => {
+        const divConteudoModal = $("#modal-conteudo");
+        divConteudoModal.empty();
+        divConteudoModal.append(data);
+        document.getElementById("modal-usuario").style.display = "block";
+        cadastrarUsuario();
+      })
+      .fail((erro) => {
+        showAlert(erro, "error");
+      });
+  } else {
+    $.get(urlEditar)
+      .done((data) => {
+        const divConteudoModal = $("#modal-conteudo");
+        divConteudoModal.empty();
+        divConteudoModal.append(data);
+        document.getElementById("modal-usuario").style.display = "block";
+        editarUsuario(urlEditar);
+        const fotoBase64 = $("#fotoBase64").val(); // pega o value que já veio preenchido no input hidden
+        if (fotoBase64) {
+          $("#preview-image").attr("src", fotoBase64);
+          $("#preview-container").removeClass("hidden");
+          $("#upload-content").addClass("hidden");
+        }
+      })
+      .fail((erro) => {
+        showAlert(erro, "error");
+      });
   }
 }
 
-function fecharModal(tipoModal) {
-  if (tipoModal === "cadastrar") {
-    document.getElementById("modal-usuario").style.display = "none";
-    document.getElementById("form-modal").reset();
-
-    document.getElementById("preview-container").classList.add("hidden");
-    document.getElementById("preview-image").src = "#";
-    document.getElementById("upload-content").classList.remove("hidden");
-
-    document.getElementById("file-upload").value = "";
-    return;
-  }
+function fecharModal() {
+  document.getElementById("modal-usuario").style.display = "none";
+  document.getElementById("form-modal").reset();
+  document.getElementById("preview-container").classList.add("hidden");
+  document.getElementById("preview-image").src = "#";
+  document.getElementById("upload-content").classList.remove("hidden");
+  document.getElementById("file-upload").value = "";
+  return;
 }
 
 window.onclick = function (event) {
@@ -49,73 +68,135 @@ window.onclick = function (event) {
   }
 };
 
-function cadastrarUsuario(url) {
-  const nome = $("#nome").val().trim();
-  const email = $("#email").val().trim();
-  const papelUsuario = $("#papelUsuario").val();
-  const statusUsuario = $("#statusUsuario").val();
-  const fileInput = document.getElementById("file-upload");
-  const file = fileInput.files[0];
+function cadastrarUsuario() {
+  $("#confirmar-usuario")
+    .off("click")
+    .on("click", function () {
+      const nome = $("#nome").val().trim();
+      const email = $("#email").val().trim();
+      const papelUsuario = $("#papelUsuario").val();
+      const statusUsuario = $("#statusUsuario").val();
+      const fileInput = document.getElementById("file-upload");
+      const file = fileInput.files[0];
 
-  if (nome == "") {
-    showAlert("Preencha o nome do usuário!", "error");
-    return;
-  }
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          const base64String = e.target.result;
 
-  if (email == "") {
-    showAlert("Preencha o email do usuário!", "error");
-    return;
-  }
-
-  if (file == "") {
-    showAlert("Selecione uma imagem para o usuário!", "error");
-    return;
-  }
-
-  const reader = new FileReader();
-
-  reader.onload = function (e) {
-    const base64String = e.target.result;
-
-    const objUsuario = {
-      Nome: nome,
-      Email: email,
-      Foto: base64String,
-      IdPapelUsuario: parseInt(papelUsuario),
-      IdStatusUsuario: parseInt(statusUsuario),
-    };
-
-    $.ajax({
-      url: url,
-      type: "POST",
-      data: JSON.stringify(objUsuario),
-      contentType: "application/json",
-      success: function () {
-        showAlert("Usuário cadastrado com sucesso!", "success");
-        setTimeout(() => location.reload(), 1000);
-      },
-      error: function (xhr) {
-        const errorMsg =
-          xhr.responseJSON?.message || "Erro ao adicionar usuário!";
-        showAlert(errorMsg, "error");
-        console.error("Detalhes do erro:", xhr.responseJSON);
-      },
+          $.post(model.urls.cadastrar, {
+            Nome: nome,
+            Email: email,
+            Foto: base64String,
+            IdPapelUsuario: parseInt(papelUsuario),
+            IdStatusUsuario: parseInt(statusUsuario),
+          })
+            .done(() => {
+              showAlert("Usuário cadastrado com sucesso!", "success");
+              setTimeout(() => location.reload(), 1000);
+            })
+            .fail((erro) => {
+              const mensagemErro =
+                erro.responseJSON?.message ||
+                erro.responseText ||
+                "Erro desconhecido.";
+              showAlert(mensagemErro, "error");
+            });
+        };
+        reader.readAsDataURL(file);
+      } else {
+        $.post(model.urls.cadastrar, {
+          Nome: nome,
+          Email: email,
+          Foto: null,
+          IdPapelUsuario: parseInt(papelUsuario),
+          IdStatusUsuario: parseInt(statusUsuario),
+        })
+          .done(() => {
+            showAlert("Usuário cadastrado com sucesso!", "success");
+            setTimeout(() => location.reload(), 1000);
+          })
+          .fail((erro) => {
+            const mensagemErro =
+              erro.responseJSON?.message ||
+              erro.responseText ||
+              "Erro desconhecido.";
+            showAlert(mensagemErro, "error");
+          });
+      }
     });
-  };
-  reader.readAsDataURL(file);
 }
 
-function previewImageUpload(inputId, previewImageId, containerId) {
-  const inputFile = document.getElementById(inputId);
-  const previewImage = document.getElementById(previewImageId);
-  const container = document.getElementById(containerId);
-  const uploadContent = document.getElementById("upload-content");
+function editarUsuario(url) {
+  $("#confirmar-usuario")
+    .off("click")
+    .on("click", function () {
+      const nome = $("#nome").val().trim();
+      const email = $("#email").val().trim();
+      const papelUsuario = $("#papelUsuario").val();
+      const statusUsuario = $("#statusUsuario").val();
+      const fileInput = document.getElementById("file-upload");
+      const file = fileInput.files[0];
+      const fotoExistente = $("#fotoBase64").val(); // <<< aqui é o hidden agora
 
-  if (!inputFile || !previewImage || !container) return;
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          const base64String = e.target.result;
 
-  inputFile.addEventListener("change", function () {
+          $.post(url, {
+            Nome: nome,
+            Email: email,
+            Foto: base64String,
+            IdPapelUsuario: parseInt(papelUsuario),
+            IdStatusUsuario: parseInt(statusUsuario),
+          })
+            .done(() => {
+              showAlert("Usuário alterado com sucesso!", "success");
+              setTimeout(() => location.reload(), 1000);
+            })
+            .fail((erro) => {
+              const mensagemErro =
+                erro.responseJSON?.message ||
+                erro.responseText ||
+                "Erro desconhecido.";
+              showAlert(mensagemErro, "error");
+            });
+        };
+        reader.readAsDataURL(file);
+      } else {
+        $.post(url, {
+          Nome: nome,
+          Email: email,
+          Foto: fotoExistente, // <<< vai enviar o que estava salvo
+          IdPapelUsuario: parseInt(papelUsuario),
+          IdStatusUsuario: parseInt(statusUsuario),
+        })
+          .done(() => {
+            showAlert("Usuário alterado com sucesso!", "success");
+            setTimeout(() => location.reload(), 1000);
+          })
+          .fail((erro) => {
+            const mensagemErro =
+              erro.responseJSON?.message ||
+              erro.responseText ||
+              "Erro desconhecido.";
+            showAlert(mensagemErro, "error");
+          });
+      }
+    });
+}
+
+function previewImageUpload() {
+  $(document).on("change", "#file-upload", function () {
     const file = this.files[0];
-    if (file && file.type.startsWith("image/")) {
+    const previewImage = document.getElementById("preview-image");
+    const container = document.getElementById("preview-container");
+    const uploadContent = document.getElementById("upload-content");
+
+    if (!file || !previewImage || !container) return;
+
+    if (file.type.startsWith("image/")) {
       const reader = new FileReader();
       reader.onload = function (e) {
         previewImage.src = e.target.result;
@@ -170,23 +251,13 @@ function removerUsuario(url, usuarioId) {
   });
 }
 
-let modalEditar = false;
-let usuarioUrlAtual = "";
-let usuarioIdAtual = null;
-
-function editarUsuario(url, usuarioId) {
-  const nome = $("#nome").val();
-  const email = $("#email").val();
-  const papelUsuario = $("#papelUsuario");
-  const statusUsuario = $("#statusUsuario");
-}
-
 module.exports = {
   init,
-  abrirModal,
+  abrirModalUsuario,
   fecharModal,
   cadastrarUsuario,
   pesquisarUsuario,
   removerUsuario,
   editarUsuario,
+  previewImageUpload,
 };

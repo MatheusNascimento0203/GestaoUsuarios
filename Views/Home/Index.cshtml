@@ -5,7 +5,7 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="ml-14 mt-16">
+<div class="flex flex-col mx-5 sm:mx-8 lg:mx-14 mt-16">
     <div>
         <h1 class="text-2xl font-bold">Gerenciador de Usuários</h1>
         <p class="text-[#64748B]">Gerencie seus usuários, visualize detalhes e execute ações.</p>
@@ -13,7 +13,7 @@
     <div class="flex items-center justify-between mt-4">
         <input id="buscar-usuario" type="search" class="block rounded-md bg-white w-[384px] h-[40px] px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2563EB] sm:text-sm/6" placeholder="Buscar usuários..." oninput="pesquisarUsuario()">
         <div class="flex gap-2">
-            <button class="flex items-center justify-center bg-[#2563EB] w-[178px] h-[40px] rounded text-white font-bold hover:bg-[#1D4ED8] transition duration-300 ease-in-out cursor-pointer" onclick="abrirModal('cadastrar')">
+            <button class="flex items-center justify-center bg-[#2563EB] w-[178px] h-[40px] rounded text-white font-bold hover:bg-[#1D4ED8] transition duration-300 ease-in-out cursor-pointer" onclick="abrirModalUsuario()">
                 <span class="mr-2">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
                          <path stroke-linecap="round" stroke-linejoin="round" d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
@@ -31,6 +31,7 @@
             </button>
         </div>
     </div>
+<div class="mt-16" id="tabela-usuarios"></div>
     <div  id="modal-confirmarExclusao" class="relative z-10 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
         <div class="fixed inset-0 bg-gray-500/75 transition-opacity" aria-hidden="true">
             <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
@@ -61,31 +62,31 @@
             </div>
         </div>
     </div>
-  </div>
-  <div  id="modal-usuario" class="relative z-10 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
-    <div class="fixed inset-0 bg-gray-500/75 transition-opacity" aria-hidden="true">
-        <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
-            <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
-                <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
-                    <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
-                        <div class="sm:flex sm:items-start">
-                            <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-                                <h3 class="text-[18px] font-semibold text-gray-900" id="modal-title">Adicionar Usuário</h3>
-                                <button class="absolute top-0 right-0 p-2 mt-4 mr-3 cursor-pointer" id="fechar-modal" onclick="fecharModal('cadastrar')">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-                                    </svg>
-                                </button>
-                                @* MODAL CADASTRAR/EDITAR USUÁRIO *@
+    <div  id="modal-usuario" class="relative z-10 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div class="fixed inset-0 bg-gray-500/75 transition-opacity" aria-hidden="true">
+            <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
+                <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+                    <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+                        <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                            <div class="sm:flex sm:items-start">
+                                <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+                                    <h3 class="text-[18px] font-semibold text-gray-900" id="modal-title">Adicionar Usuário</h3>
+                                    <button class="absolute top-0 right-0 p-2 mt-4 mr-3 cursor-pointer" id="fechar-modal" onclick="fecharModal('cadastrar')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                                        </svg>
+                                    </button>
+                                    @* MODAL CADASTRAR/EDITAR USUÁRIO *@
+                                    <div id="modal-conteudo">
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>                    
+                        </div>                    
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div id="tabela-usuarios">    
 </div>
 
 
@@ -96,7 +97,10 @@
             urls: {
                 index: '@Url.Action("Index", "Home")',
                 buscarUsuario: '@Url.Action("BuscarUsuario", "Home")',
+                buscarFormCadastrar: '@Url.Action("CriarUsuario", "Home")',
+                cadastrar: '@Url.Action("CriarUsuario", "Home")',
             }
         })
+        previewImageUpload();
     });
 </script>
