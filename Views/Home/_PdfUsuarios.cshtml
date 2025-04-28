@@ -3,38 +3,82 @@
 
 <html>
 <head>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 30px; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
-        th { background: #f5f5f5; }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="font-sans p-6">
 
-    <h1>Relatório de Usuários</h1>
+    <!-- Cabeçalho com logo e informações -->
+    <div class="flex justify-between items-center mb-8">
+        <img src="~/Images/Logo-SMn.png" alt="Logo-SMN" class="w-10 h-12">
+        <div class="text-sm text-gray-600">
+            <p><strong>PDF N°:</strong> 9999</p>
+            <p><strong>EMISSÃO:</strong> @DateTime.Now.ToString("dd/MM/yyyy")</p>
+            <p><strong>GERADO POR:</strong> XXXXXX</p>
+        </div>
+    </div>
 
-    <table>
+    <!-- Tabela de usuários -->
+    <table class="min-w-full table-auto border-collapse bg-white">
         <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Email</th>
-                <th>Papel</th>
-                <th>Status</th>
+            <tr class="bg-gray-200 text-sm text-gray-700">
+                <th class="py-3 px-4 text-center font-semibold border-b border-l border-r">ID</th>
+                <th class="py-3 px-4 text-center font-semibold border-b border-l border-r">IMAGEM</th>
+                <th class="py-3 px-4 text-center font-semibold border-b border-l border-r">NOME</th>
+                <th class="py-3 px-4 text-center font-semibold border-b border-l border-r">E-MAIL</th>
+                <th class="py-3 px-4 text-center font-semibold border-b border-l border-r">STATUS</th>
+                <th class="py-3 px-4 text-center font-semibold border-b border-l border-r">CRIADO EM</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var usuario in Model)
+            @if (Model != null && Model.Any())
             {
-                <tr>
-                    <td>@usuario.Nome</td>
-                    <td>@usuario.Email</td>
-                    <td>@usuario.PapelUsuario.NomePapelUsuario</td>
-                    <td>@usuario.StatusUsuario.NomeStatusUsuario</td>
+                var totalUsuarios = Model.Count();
+
+                @foreach (var usuario in Model)
+                {
+                    <tr class="text-sm text-gray-800">
+                        <td class="py-3 px-4 text-center border-b border-l border-r">@usuario.Id</td>
+                        <td class="py-3 px-4 text-center border-b border-l border-r">
+                            @{
+                                var base64Imagem = usuario.Foto;
+                                if (!base64Imagem.StartsWith("data:image/png;base64,"))
+                                {
+                                    base64Imagem = "data:image/png;base64," + base64Imagem;
+                                }
+                            }
+                            <img src="@base64Imagem" alt="Imagem do Usuário" class="w-16 h-16 mx-auto" />
+                        </td>
+                        <td class="py-3 px-4 text-center border-b border-l border-r">@usuario.Nome</td>
+                        <td class="py-3 px-4 text-center border-b border-l border-r">@usuario.Email</td>
+                        <td class="py-3 px-4 text-center border-b border-l border-r">@usuario.StatusUsuario.NomeStatusUsuario</td>
+                        <td class="py-3 px-4 text-center border-b border-l border-r">@usuario.DataCadastro.ToString("dd/MM/yyyy")</td>
+                    </tr>
+                }
+                <tr class="text-sm text-gray-800">
+                    <td colspan="6" class="py-3 px-4 text-left font-bold border">TOTAL DE USUÁRIOS: @totalUsuarios</td>
                 </tr>
             }
         </tbody>
-    </table>
+    </table >
 
+    <!-- Rodapé com papéis -->
+    <table class="min-w-full mt-6 table-auto border-collapse bg-white">
+        <thead>
+            <tr class="bg-gray-200 text-sm text-gray-700">
+                <th colspan="6" class="py-3 px-4 text-center font-semibold border-b">TIPOS DE PAPÉIS</th>                
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="text-sm text-gray-700">
+                <td colspan="6" class="py-3 px-4 text-left font-bold border"><strong>ADMINSTRADOR:</strong> Gerencia todo o sistema, incluindo usuários, permissões e configurações.</td>  
+            </tr>
+            <tr class="text-sm text-gray-700">
+                <td colspan="6" class="py-3 px-4 text-left font-bold border"><strong>EDITOR:</strong> Altera e atualiza conteúdos ou dados dentro do sistema.</td>
+            </tr>
+            <tr class="text-sm text-gray-700">
+                <td colspan="6" class="py-3 px-4 text-left font-bold border"><strong>VISUALIZADOR:</strong> Apenas acessa e consulta informações, sem realizar modificações.</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
