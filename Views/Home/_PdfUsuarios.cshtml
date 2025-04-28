@@ -1,0 +1,40 @@
+@using GerenciadorUsuario.Models
+@model IEnumerable<Usuario>
+
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background: #f5f5f5; }
+    </style>
+</head>
+<body>
+
+    <h1>Relatório de Usuários</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Papel</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var usuario in Model)
+            {
+                <tr>
+                    <td>@usuario.Nome</td>
+                    <td>@usuario.Email</td>
+                    <td>@usuario.PapelUsuario.NomePapelUsuario</td>
+                    <td>@usuario.StatusUsuario.NomeStatusUsuario</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>

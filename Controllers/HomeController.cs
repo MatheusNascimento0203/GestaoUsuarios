@@ -144,6 +144,13 @@ public class HomeController : Controller
         return Ok();
     }
 
+    [HttpGet("exportar-usuarios-pdf")]
+    public async Task<IActionResult> ExportarUsuariosPDF()
+    {
+        var usuarios = await _usuarioRepository.BuscarAsync();
+        return View("_PdfUsuarios", usuarios.OrderBy(x => x.Nome));
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

@@ -16,5 +16,9 @@
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.4"
+  },
+  "dependencies": {
+    "puppeteer": "^24.7.2",
+    "tailwind-scrollbar": "^4.0.2"
   }
 }
